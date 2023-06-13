@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta tag-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jquery ui</title>
+    <!--css links-->
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+    <div class="container">
+  <!-- dragable   -->
+  <h2>You can drag this function</h2>
+<div id="dragg" class="ui-widget-content">
+  <p>Drag me around</p>
+</div>
+<hr>
+<!-- drag count -->
+<h2>You can count the number of dragging</h2>
+
+<div id="drag" class="ui-widget ui-widget-content">
+ 
+  <p>Drag me to trigger the chain of events.</p>
+ 
+  <ul class="ui-helper-reset">
+    <li id="e_start" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-play"></span>&quot;start&quot; invoked <span class="count">0</span>x</li>
+    <li id="e_drag" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-arrow-4"></span>&quot;drag&quot; invoked <span class="count">0</span>x</li>
+    <li id="e_stop" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-stop"></span>&quot;stop&quot; invoked <span class="count">0</span>x</li>
+  </ul>
+</div>
+<hr>
+<!-- drop -->
+<h2>Drag and Drop</h2>
+<div id="dr_able" class="ui-widget-content">
+   <p>Drag me to my target</p> 
+</div>
+
+<div id="drop_able" class="ui-widget-content">
+   <p>Drop here</p> 
+</div>
+
+<!-- sortable -->
+
+<hr>
+<h2>WHAT YOU LERN FIRST?MAKE IT IN ORDER OF YOUR LERNING SERIAL.</h2>
+
+<ul id="s_able">
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>BOOTSTRAP</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>JQUERY</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>HTML</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>PYTHON</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>JAVASCRIPT</li>
+  
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>CSS</li>
+</ul>
+
+<hr>
+<!-- accordian -->
+
+<h2>ACCORDIAN</h2>
+
+<div id="accor">
+  <h3>What is HTML?</h3>
+  <div>
+    <p>HTML stands for Hyper Text Markup Language.
+      HTML is the standard markup language for creating Web pages.
+      HTML describes the structure of a Web page.
+      HTML consists of a series of elements.
+      HTML elements tell the browser how to display the content.
+      HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</p>
+  </div>
+  <h3>What is CSS?</h3>
+  <div>
+    <p>CSS stands for Cascading Style Sheets.
+  CSS describes how HTML elements are to be displayed on screen, paper, or in   other media
+  CSS saves a lot of work. It can control the layout of multiple web pages all at once
+   External stylesheets are stored in CSS files </p>
+  </div>
+  <h3>What is JAVASCRIPT?</h3>
+  <div>
+    <p>JavaScript is the world's most popular programming language.
+
+       JavaScript is the programming language of the Web. </p>
+    
+  </div>
+  <button id="toggle">Toggle icons</button>
+</div>
+
+
+<!-- autocomplete -->
+
+<hr>
+
+<h2>AUTOCOMPLETE</h2>
+<form action ="#">
+  <div class="mb-3">
+    <label for="examp" class="form-label f_label">Programming language</label>
+    <input type="text" class=" form-control f_style" id="examp">
+    
+
+  
+  
+  
+</form>
+
+</div>
+
+
+
+<!-- button -->
+<div class="widget">
+  <h1>Widget</h1>
+  <button>Button with only text</button>
+  <button>Button with icon only</button>
+  <button>Button with icon on the left</button>
+  <button>Button with icon on the right</button>
+  <button>Button with icon on the top</button>
+  <button>Button with icon on the bottom</button>
+</div>
+<div class="css">
+  <h1>CSS</h1>
+  <button class="ui-button ui-widget ui-corner-all">
+    Button with only text
+  </button>
+  <button class="ui-button ui-widget ui-corner-all ui-button-icon-only" title="Button with icon only">
+    <span class="ui-icon ui-icon-gear"></span> Button with icon only
+  </button>
+  <button class="ui-button ui-widget ui-corner-all">
+    <span class="ui-icon ui-icon-gear"></span> Button with icon on the left
+  </button>
+  <button class="ui-button ui-widget ui-corner-all">
+    Button with icon on the right <span class="ui-icon ui-icon-gear"></span>
+  </button>
+  <button class="ui-button ui-widget ui-corner-all">
+    <span class="ui-icon ui-icon-gear ui-widget-icon-block"></span> Button with icon on the top
+  </button>
+  <button class="ui-button ui-widget ui-corner-all">
+    Button with icon on the bottom <span class="ui-icon ui-icon-gear ui-widget-icon-block"></span>
+  </button>
+</div>
+
+
+<!-- datepicker -->
+<hr>
+<h2>Select your date of birth</h2>
+<p>Date of birth:<input type="text" id="datepicker"></p>
+
+<!-- menu -->
+<hr>
+<h2>MENU</h2>
+<ul id="menu">
+  <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+  <li><div>Books</div></li>
+  <li><div>Clothing</div></li>
+  <li><div>Electronics</div>
+    <ul>
+      <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+      <li><div>Car Hifi</div></li>
+      <li><div>Utilities</div></li>
+    </ul>
+  </li>
+  <li><div>Movies</div></li>
+  <li><div>Music</div>
+    <ul>
+      <li><div>Rock</div>
+        <ul>
+          <li><div>Alternative</div></li>
+          <li><div>Classic</div></li>
+        </ul>
+      </li>
+      <li><div>Jazz</div>
+        <ul>
+          <li><div>Freejazz</div></li>
+          <li><div>Big Band</div></li>
+          <li><div>Modern</div></li>
+        </ul>
+      </li>
+      <li><div>Pop</div></li>
+    </ul>
+  </li>
+  <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+</ul>
+<hr>
+<div id="dialog" title="File Download">
+    <div class="progress-label">Starting download</div>
+    <div id="progressbar"></div>
+</div>
+<button id="downloadButton">Start Download</button>
+
+<hr>
+<p class="ui-state-default ui-corner-all ui-helper-clearfix p_head">
+    <span class="ui-icon ui-icon-pencil">
+        
+    </span>Simple Colorpicker
+</p>
+<div id="red"></div>
+<div id="green"></div>
+<div id="blue"></div>
+
+<div id="swatch" class="ui-widget-content ui-corner-all"></div>
+
+
+<!-- tabs -->
+<hr>
+<h2>Tabs</h2>
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">HTML</a></li>
+    <li><a href="#tabs-2">CSS</a></li>
+    <li><a href="#tabs-3">JS</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>HTML stands for Hyper Text Markup Language.
+      HTML is the standard markup language for creating Web pages.
+      HTML describes the structure of a Web page.
+      HTML consists of a series of elements.
+      HTML elements tell the browser how to display the content.
+      HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</p>
+  </div>
+  <div id="tabs-2">
+    <p>CSS stands for Cascading Style Sheets.
+    CSS describes how HTML elements are to be displayed on   screen, paper, or in   other media
+    CSS saves a lot of work. It can control the layout of multiple web pages all at once
+    External stylesheets are stored in CSS files</p>
+  </div>
+  <div id="tabs-3">
+    <p>JavaScript is the world's most popular programming language.
+
+       JavaScript is the programming language of the Web.</p>
+  </div>
+</div>
+<!-- tooltip -->
+<hr>
+<h2>Tooltip</h2>
+<form class="row g-3">
+  <div class="col-md-4">
+    <label for="valid-1" class="form-label">First name</label>
+    <input type="text" class="form-control" title="Please provide your firstname." id="valid-1" >
+  </div>
+  <div class="col-md-4">
+    <label for="valid-2" class="form-label">Last name</label>
+    <input type="text" class="form-control"  title="Please provide your lastname." id="valid-2" > </div>
+  <div class="col-md-4">
+    <label for="validationDefaultUsername"  class="form-label">Username</label>
+    <div class="input-group">
+      <span class="input-group-text" id="inputGroupPrepend2">@</span>
+      <input type="text" class="form-control" title="Please provide your Username." id="valid-username" aria-describedby="inputGroupPrepend2" required>
+    </div>
+  </div>
+  
+  
+  
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+
+
+<hr>
+<h3>ADD CLASS</h3>
+<div class="toggler">
+    <div id="effect" class="ui-widget-content ui-corner-all">
+        <h3 class="ui-widget-header ui-corner-all ">Toggle</h3>
+        <p>JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web</p>
+    </div>
+</div>
+
+
+<select name="effects" id="ef_type">
+  <option value="blind">Blind</option>
+  <option value="bounce">Bounce</option>
+  <option value="clip">Clip</option>
+  <option value="drop">Drop</option>
+  <option value="explode">Explode</option>
+  <option value="fade">Fade</option>
+  <option value="fold">Fold</option>
+  <option value="highlight">Highlight</option>
+  <option value="puff">Puff</option>
+  <option value="pulsate">Pulsate</option>
+  <option value="scale">Scale</option>
+  <option value="shake">Shake</option>
+  <option value="size">Size</option>
+  <option value="slide">Slide</option>
+</select>
+ 
+<button id="e_button" class="btn btn-primary ui-state-default ui-corner-all">Run Effect</button>
+
+</div>
+ 
+
+
+<!--js links-->
+<script src="js/jquery-3.7.0.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

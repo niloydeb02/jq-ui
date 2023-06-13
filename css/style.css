@@ -1,0 +1,119 @@
+/*drag*/
+#dragg{
+	width: 200px;
+	height: 200px;
+	background: #F39C12;
+}
+#drag{
+	width: 200px;
+	height: 200px;
+	background: #F39C12;
+}
+/*drag and drop*/
+#dr_able{
+	width: 100px;
+	height: 100px;
+	background:#F1C40F;
+}
+#drop_able{
+	width: 200px;
+	height: 200px;
+	background: #ECF0F1  ;
+}
+
+#s_able {
+	
+	margin: 3px;
+	padding: 5px;
+
+	width: 60%;
+	font-size: 30px;
+	list-style: none;
+	color: #17202A;
+
+	
+	
+	}
+
+/*	SORTABLE*/
+	#s_able li{
+		background: #5499C7;
+	}
+
+/*	accordian*/
+#accor h3{
+/*	background: #F1948A;*/
+
+}
+#accor div{
+background: #52BE80;
+
+}
+#accor p{
+
+}
+
+
+/*form*/
+.f_style{
+	border: 2px solid black;
+}
+.f_label{
+	font-size: 20px;
+}
+#menu{
+	width: 200px;
+/*	background: #707B7C ;*/
+}
+
+
+/*color picker*/
+.p_head{
+	padding: 10px;
+}
+.p_head span{
+	margin:-2px 5px 0 0;
+	float: left;
+
+}
+#red,#green,#blue{
+	float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+
+}
+#red .ui-slider-range { background: #ef2929; }
+#red .ui-slider-handle { border-color: #ef2929; }
+#green .ui-slider-range{background: #28B463;}
+#green .ui-slider-handle{border-color: #28B463;}
+#blue .ui-slider-range{background: #2874A6 ;}
+#blue .ui-slider-handle { border-color: #2874A6; }
+#swatch{
+	width: 120px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    border: 1px solid;
+    background-image: none;
+}
+/*addclass*/
+.toggler {
+    width: 500px;
+    height: 200px;
+  }
+  #button {
+    padding:16px 10px;
+    text-decoration: none;
+  }
+  #effect {
+    position: relative;
+    width: 240px;
+    height: 170px;
+    padding: 4px;
+  }
+  #effect h3 {
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+  }
